@@ -7,7 +7,7 @@ class Login extends CI_Controller
         parent::__construct();
     }
 
-    public function index()
+    public function page()
     {
         $this->load->view('vw_login');
     }
